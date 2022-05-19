@@ -6,6 +6,7 @@ import Addfriend from './components/Addfriend';
 function App() {
   return (
     <>
+    <Viewfriend/>
     <BrowserRouter>
     <Routes>
       <Route path='/'exact element={<Addfriend/>}/>
