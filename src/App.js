@@ -3,17 +3,13 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import Addfriend from './components/Addfriend';
+import Viewfriend from './components/Viewfriend';
 function App() {
   return (
     <>
-    <Viewfriend/>
-    <BrowserRouter>
-    <Routes>
-      <Route path='/'exact element={<Addfriend/>}/>
-      
-      <Route path='/view'exact element={<Viewf/>}/>
-    </Routes>
-    </BrowserRouter>
+    <Addfriend/>
+   <Viewfriend/>
+    
     
     </>
   );
